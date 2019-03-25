@@ -1,6 +1,13 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="ComponentAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backgroundColorCustomProgress">@color/baseInvertLight</item>
+        <item name="foregroundColorCustomProgress">@color/baseInvert</item>
+        <item name="marginCustomProgress">@dimen/marginCustomProgress</item>
+        <item name="heightCustomProgress">@dimen/heightCustomProgress</item>
+    </style>
+
+    <style name="AppTheme" parent="ComponentAppTheme">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

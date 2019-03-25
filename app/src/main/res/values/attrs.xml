@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="customProgress">
+        <attr name="backgroundColorCustomProgress" format="color" />
+        <attr name="foregroundColorCustomProgress" format="color" />
+        <attr name="marginCustomProgress" format="dimension" />
+        <attr name="heightCustomProgress" format="dimension" />
+    </declare-styleable>
+
+</resources>

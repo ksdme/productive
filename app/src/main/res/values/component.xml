@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App" />
+
+    <style name="App.CustomProgress" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/custom_progress</item>
+        <item name="android:layout_margin">?attr/marginCustomProgress</item>
+    </style>
+
+</resources>

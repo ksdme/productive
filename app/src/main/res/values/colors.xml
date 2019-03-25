@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="baseColor">#3C3C3C</color>
+    <color name="baseInvert">#D2D2D2</color>
+    <color name="baseInvertLight">#959595</color>
+
     <color name="colorPrimary">@color/baseColor</color>
     <color name="colorPrimaryDark">@color/baseColor</color>
     <color name="colorAccent">#D81B60</color>
