@@ -6,4 +6,11 @@
     <dimen name="marginCustomProgress">16dp</dimen>
     <dimen name="heightCustomProgress">14dp</dimen>
 
+    <dimen name="app_padding_one">3dp</dimen>
+    <dimen name="app_padding_two">6dp</dimen>
+    <dimen name="app_padding_three">12dp</dimen>
+    <dimen name="app_padding_four">16dp</dimen>
+    <dimen name="app_padding_five">24dp</dimen>
+    <dimen name="app_padding_six">28dp</dimen>
+    <dimen name="app_padding_seven">32dp</dimen>
 </resources>
