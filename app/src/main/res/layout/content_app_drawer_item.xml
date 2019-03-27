@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/app_padding_three">
+
+    <ImageView
+            android:layout_width="@dimen/appDrawerItemIconSize"
+            android:layout_height="@dimen/appDrawerItemIconSize"
+            android:contentDescription="@string/placeholder_app_icon"
+            android:src="@drawable/ic_placeholder_app_icon"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/placeholder_app_name"
+            android:layout_marginStart="@dimen/app_padding_four"
+            style="@style/App.AppIconLabel"/>
+
+</LinearLayout>

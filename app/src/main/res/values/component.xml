@@ -8,4 +8,8 @@
         <item name="android:layout_margin">?attr/marginCustomProgress</item>
     </style>
 
+    <style name="App.AppIconLabel" parent="TextAppearance.AppCompat.Title">
+        <item name="android:color">@android:color/black</item>
+    </style>
+
 </resources>

@@ -8,4 +8,8 @@
         <attr name="heightCustomProgress" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="customAppDrawer">
+        <attr name="appLabelColorAppDrawer" format="color" />
+    </declare-styleable>
+
 </resources>

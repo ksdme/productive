@@ -13,4 +13,6 @@
     <dimen name="app_padding_five">24dp</dimen>
     <dimen name="app_padding_six">28dp</dimen>
     <dimen name="app_padding_seven">32dp</dimen>
+
+    <dimen name="appDrawerItemIconSize">52dp</dimen>
 </resources>

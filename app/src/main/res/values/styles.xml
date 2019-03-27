@@ -5,6 +5,8 @@
         <item name="foregroundColorCustomProgress">@color/baseInvert</item>
         <item name="marginCustomProgress">@dimen/marginCustomProgress</item>
         <item name="heightCustomProgress">@dimen/heightCustomProgress</item>
+
+        <item name="appLabelColorAppDrawer">@color/baseColor</item>
     </style>
 
     <style name="AppTheme" parent="ComponentAppTheme">
