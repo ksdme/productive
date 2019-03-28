@@ -3,7 +3,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/app_padding_three">
+        android:padding="@dimen/app_padding_three"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
 
     <ImageView
             android:layout_width="@dimen/appDrawerItemIconSize"
