@@ -3,7 +3,6 @@
 
     <dimen name="zero">0dp</dimen>
 
-    <dimen name="marginCustomProgress">16dp</dimen>
     <dimen name="heightCustomProgress">14dp</dimen>
 
     <dimen name="app_padding_one">3dp</dimen>

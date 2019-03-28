@@ -5,7 +5,7 @@
 
     <style name="App.CustomProgress" parent="Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/custom_progress</item>
-        <item name="android:layout_margin">?attr/marginCustomProgress</item>
+        <item name="android:layout_margin">@dimen/zero</item>
     </style>
 
     <style name="App.AppIconLabel" parent="TextAppearance.AppCompat.Title">

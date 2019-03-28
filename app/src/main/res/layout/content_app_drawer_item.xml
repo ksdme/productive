@@ -3,7 +3,10 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/app_padding_three"
+        android:paddingStart="@dimen/app_padding_five"
+        android:paddingEnd="@dimen/app_padding_five"
+        android:paddingTop="@dimen/app_padding_two"
+        android:paddingBottom="@dimen/app_padding_two"
         android:background="?attr/selectableItemBackground"
         android:clickable="true"
         android:focusable="true">
