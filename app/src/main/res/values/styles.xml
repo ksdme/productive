@@ -6,6 +6,7 @@
         <item name="heightCustomProgress">@dimen/heightCustomProgress</item>
 
         <item name="appLabelColorAppDrawer">@color/baseColor</item>
+        <item name="appIconSizeAppDrawer">@dimen/app_icon_size_four</item>
     </style>
 
     <style name="AppTheme" parent="ComponentAppTheme">
