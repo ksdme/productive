@@ -10,6 +10,7 @@
 
     <declare-styleable name="appDrawer">
         <attr name="appLabelColorAppDrawer" format="color" />
+        <attr name="appLabelFontFamily" format="reference" />
         <attr name="appIconSizeAppDrawer" format="dimension" />
     </declare-styleable>
 

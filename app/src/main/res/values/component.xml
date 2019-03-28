@@ -10,7 +10,7 @@
 
     <style name="App.AppIconLabel" parent="TextAppearance.AppCompat.Title">
         <item name="android:color">@android:color/black</item>
-        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:fontFamily">?attr/appLabelFontFamily</item>
     </style>
 
 </resources>
