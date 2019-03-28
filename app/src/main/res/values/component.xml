@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="App" />
+    <style name="App">
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
 
     <style name="App.CustomProgress" parent="Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/custom_progress</item>
