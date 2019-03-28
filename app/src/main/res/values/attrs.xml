@@ -14,4 +14,12 @@
         <attr name="appIconSizeAppDrawer" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="searchEditText">
+        <attr name="searchEditTextFontFamily" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="footerOverlay">
+        <attr name="backgroundColorFooterColor" format="color" />
+    </declare-styleable>
+
 </resources>

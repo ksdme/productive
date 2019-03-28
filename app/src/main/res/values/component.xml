@@ -15,4 +15,13 @@
         <item name="android:fontFamily">?attr/appLabelFontFamily</item>
     </style>
 
+    <style name="App.SearchTextEdit" parent="Widget.AppCompat.EditText">
+        <item name="android:paddingTop">@dimen/app_padding_three</item>
+        <item name="android:paddingBottom">@dimen/app_padding_three</item>
+        <item name="android:paddingStart">@dimen/app_padding_four</item>
+        <item name="android:paddingEnd">@dimen/app_padding_four</item>
+        <item name="android:background">@drawable/bg_edit_text_rounded_rect</item>
+        <item name="android:fontFamily">?attr/searchEditTextFontFamily</item>
+    </style>
+
 </resources>

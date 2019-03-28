@@ -3,4 +3,6 @@
 
     <string name="placeholder_app_icon">App Icon</string>
     <string name="placeholder_app_name">Sample App</string>
+
+    <string name="placeholder_hint_search">Search</string>
 </resources>

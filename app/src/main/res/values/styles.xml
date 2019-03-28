@@ -8,6 +8,10 @@
         <item name="appLabelColorAppDrawer">@color/baseColor</item>
         <item name="appLabelFontFamily">@font/open_sans_regular</item>
         <item name="appIconSizeAppDrawer">@dimen/app_icon_size_four</item>
+
+        <item name="searchEditTextFontFamily">@font/open_sans_regular</item>
+
+        <item name="backgroundColorFooterColor">@color/colorPrimary</item>
     </style>
 
     <style name="AppTheme" parent="ComponentAppTheme">
