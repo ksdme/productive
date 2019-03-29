@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <declare-styleable name="materialShadow">
+        <attr name="backgroundColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="shadowColor" format="dimension" />
+        <attr name="elevation" format="dimension" />
+        <attr name="shadowGravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="top" value="48" />
+        </attr>
+    </declare-styleable>
+
     <declare-styleable name="customProgress">
         <attr name="backgroundColorCustomProgress" format="color" />
         <attr name="foregroundColorCustomProgress" format="color" />
