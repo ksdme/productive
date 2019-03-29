@@ -12,6 +12,7 @@
         <item name="searchEditTextFontFamily">@font/open_sans_regular</item>
 
         <item name="backgroundColorFooterColor">@color/colorPrimary</item>
+        <item name="quickAppIconSizeFooterOverlay">@dimen/app_icon_size_four</item>
     </style>
 
     <style name="AppTheme" parent="ComponentAppTheme">
