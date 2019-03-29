@@ -15,7 +15,7 @@
     <ImageView
             android:layout_width="?attr/quickAppIconSizeFooterOverlay"
             android:layout_height="?attr/quickAppIconSizeFooterOverlay"
-            android:src="@drawable/ic_placeholder_app_icon"
+            android:background="@drawable/ic_placeholder_app_icon"
             android:contentDescription="@string/placeholder_app_icon"
             android:clickable="true"
             android:focusable="true"
@@ -24,7 +24,7 @@
     <ImageView
             android:layout_width="?attr/quickAppIconSizeFooterOverlay"
             android:layout_height="?attr/quickAppIconSizeFooterOverlay"
-            android:src="@drawable/ic_placeholder_app_icon"
+            android:background="@drawable/ic_placeholder_app_icon"
             android:contentDescription="@string/placeholder_app_icon"
             android:clickable="true"
             android:focusable="true"
@@ -33,7 +33,7 @@
     <ImageView
             android:layout_width="?attr/quickAppIconSizeFooterOverlay"
             android:layout_height="?attr/quickAppIconSizeFooterOverlay"
-            android:src="@drawable/ic_placeholder_app_icon"
+            android:background="@drawable/ic_placeholder_app_icon"
             android:contentDescription="@string/placeholder_app_icon"
             android:clickable="true"
             android:focusable="true"
@@ -42,7 +42,7 @@
     <ImageView
             android:layout_width="?attr/quickAppIconSizeFooterOverlay"
             android:layout_height="?attr/quickAppIconSizeFooterOverlay"
-            android:src="@drawable/ic_placeholder_app_icon"
+            android:background="@drawable/ic_placeholder_app_icon"
             android:contentDescription="@string/placeholder_app_icon"
             android:clickable="true"
             android:focusable="true"
@@ -51,7 +51,7 @@
     <ImageView
             android:layout_width="?attr/quickAppIconSizeFooterOverlay"
             android:layout_height="?attr/quickAppIconSizeFooterOverlay"
-            android:src="@drawable/ic_placeholder_app_icon"
+            android:background="@drawable/ic_placeholder_app_icon"
             android:contentDescription="@string/placeholder_app_icon"
             android:clickable="true"
             android:focusable="true"
