@@ -9,47 +9,64 @@ import android.graphics.drawable.ShapeDrawable
 import android.graphics.drawable.shapes.RoundRectShape
 import android.support.v4.view.ViewCompat
 import android.util.AttributeSet
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import xyz.ksdme.productive.R
 
 class MaterialShadow {
     companion object {
+        private val tag = "materialShadow"
 
         fun generate(target: View,
                      backgroundColor: Int,
                      shadowColor: Int,
                      cornerRadius: Float,
                      elevation: Int,
-                     shadowGravity: Int
+                     shadowGravity: Int,
+                     horizontal: Boolean = true,
+                     vertical: Boolean = true
         ): Drawable {
 
             val spacingShape = Rect()
-            spacingShape.left = elevation
-            spacingShape.right = elevation
+
+            if (horizontal) {
+                spacingShape.left = elevation
+                spacingShape.right = elevation
+            }
 
             val dy = when(shadowGravity) {
                 Gravity.CENTER -> {
-                    spacingShape.top = elevation
-                    spacingShape.bottom = elevation
+                    if (vertical) {
+                        spacingShape.top = elevation
+                        spacingShape.bottom = elevation
+                    }
+
                     0.toFloat()
                 }
 
                 Gravity.TOP -> {
-                    spacingShape.top = elevation * 2
-                    spacingShape.bottom = elevation
-                    (-1 * elevation / 3).toFloat()
+                    if (vertical) {
+                        spacingShape.top = elevation * 2
+                        spacingShape.bottom = elevation
+                    }
+
+                    (-1 * elevation / 2).toFloat()
                 }
 
                 Gravity.BOTTOM -> {
-                    spacingShape.top = elevation
-                    spacingShape.bottom = elevation * 2
-                    (elevation / 3).toFloat()
+                    if (vertical) {
+                        spacingShape.top = elevation
+                        spacingShape.bottom = elevation * 2
+                    }
+
+                    (elevation / 2).toFloat()
                 }
 
                 else -> {
                     spacingShape.top = 0
                     spacingShape.bottom = 0
+
                     0.toFloat()
                 }
             }
@@ -67,7 +84,11 @@ class MaterialShadow {
             shapeDrawable.shape = RoundRectShape(rounded, null, null)
 
             val drawable = LayerDrawable(arrayOf(shapeDrawable))
-            drawable.setLayerInset(0, elevation, elevation * 2, elevation, elevation * 2)
+            drawable.setLayerInset(0,
+                                   if (horizontal) elevation else 0,
+                                   if (vertical) (elevation * 2) else  0,
+                                   if (horizontal) elevation else 0,
+                                   if (vertical) (elevation * 2) else 0)
 
             return drawable
         }
@@ -86,12 +107,17 @@ class MaterialShadow {
                 R.styleable.material_shadow_cornerRadius, 0F)
             val shadowGravity = typed.getInt(
                 R.styleable.material_shadow_shadowGravity, Gravity.BOTTOM)
+            val horizontal = !typed.getBoolean(
+                R.styleable.material_shadow_verticalOnly, false)
+            val vertical = !typed.getBoolean(
+                R.styleable.material_shadow_horizontalOnly, false)
 
             // Good Citizen
             typed.recycle()
 
             return MaterialShadow.generate(
-                view, backgroundColor, shadowColor, cornerRadius, elevation, shadowGravity)
+                view, backgroundColor, shadowColor, cornerRadius,
+                elevation, shadowGravity, horizontal, vertical)
         }
 
     }

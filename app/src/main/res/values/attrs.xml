@@ -11,6 +11,8 @@
             <flag name="center" value="17" />
             <flag name="top" value="48" />
         </attr>
+        <attr name="verticalOnly" format="boolean" />
+        <attr name="horizontalOnly" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="custom_progress">
