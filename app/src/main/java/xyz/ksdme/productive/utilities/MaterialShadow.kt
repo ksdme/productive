@@ -74,18 +74,18 @@ class MaterialShadow {
 
         fun generate(view: View, context: Context, attrs: AttributeSet?): Drawable {
             val typed = context.theme.obtainStyledAttributes(
-                attrs, R.styleable.materialShadow, 0, 0)
+                attrs, R.styleable.material_shadow, 0, 0)
 
             val backgroundColor = typed.getColor(
-                R.styleable.materialShadow_backgroundColor, Color.WHITE)
+                R.styleable.material_shadow_backgroundColor, Color.WHITE)
             val shadowColor = typed.getColor(
-                R.styleable.materialShadow_shadowColor, Color.DKGRAY)
+                R.styleable.material_shadow_shadowColor, Color.DKGRAY)
             val elevation = typed.getDimension(
-                R.styleable.materialShadow_elevation, 2F).toInt()
+                R.styleable.material_shadow_elevation, 2F).toInt()
             val cornerRadius = typed.getDimension(
-                R.styleable.materialShadow_cornerRadius, 0F)
+                R.styleable.material_shadow_cornerRadius, 0F)
             val shadowGravity = typed.getInt(
-                R.styleable.materialShadow_shadowGravity, Gravity.BOTTOM)
+                R.styleable.material_shadow_shadowGravity, Gravity.BOTTOM)
 
             // Good Citizen
             typed.recycle()

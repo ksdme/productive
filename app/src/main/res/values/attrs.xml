@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="materialShadow">
+    <declare-styleable name="material_shadow">
         <attr name="backgroundColor" format="color" />
         <attr name="cornerRadius" format="dimension" />
         <attr name="shadowColor" format="dimension" />
@@ -13,24 +13,24 @@
         </attr>
     </declare-styleable>
 
-    <declare-styleable name="customProgress">
+    <declare-styleable name="custom_progress">
         <attr name="backgroundColorCustomProgress" format="color" />
         <attr name="foregroundColorCustomProgress" format="color" />
         <attr name="marginCustomProgress" format="dimension" />
         <attr name="heightCustomProgress" format="dimension" />
     </declare-styleable>
 
-    <declare-styleable name="appDrawer">
+    <declare-styleable name="app_drawer">
         <attr name="appLabelColorAppDrawer" format="color" />
         <attr name="appLabelFontFamily" format="reference" />
         <attr name="appIconSizeAppDrawer" format="dimension" />
     </declare-styleable>
 
-    <declare-styleable name="searchEditText">
+    <declare-styleable name="search_edit_text">
         <attr name="searchEditTextFontFamily" format="reference" />
     </declare-styleable>
 
-    <declare-styleable name="footerOverlay">
+    <declare-styleable name="footer_overlay">
         <attr name="backgroundColorFooterColor" format="color" />
         <attr name="quickAppIconSizeFooterOverlay" format="dimension" />
     </declare-styleable>
