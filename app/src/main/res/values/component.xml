@@ -16,10 +16,10 @@
     </style>
 
     <style name="App.SearchTextEdit" parent="Widget.AppCompat.EditText">
-        <item name="android:paddingTop">@dimen/app_padding_three</item>
-        <item name="android:paddingBottom">@dimen/app_padding_three</item>
-        <item name="android:paddingStart">@dimen/app_padding_four</item>
-        <item name="android:paddingEnd">@dimen/app_padding_four</item>
+        <item name="android:paddingTop">@dimen/spacingThree</item>
+        <item name="android:paddingBottom">@dimen/spacingThree</item>
+        <item name="android:paddingStart">@dimen/spacingFour</item>
+        <item name="android:paddingEnd">@dimen/spacingFour</item>
         <item name="android:background">@drawable/bg_edit_text_rounded_rect</item>
         <item name="android:fontFamily">?attr/searchEditTextFontFamily</item>
     </style>

@@ -12,7 +12,7 @@
             android:progress="54"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/app_padding_five"
+            android:padding="@dimen/spacingFive"
             style="@style/App.CustomProgress"/>
 
 </LinearLayout>
